@@ -558,6 +558,10 @@ nav .navbar .links li .sub-menu li{
       padding-left: 35px;
     }
 
+    footer {
+      margin-top: 50px;
+      min-width: calc(106vw + 2px);
+    }
     
 }
 @media (max-width:370px){
@@ -623,8 +627,13 @@ nav .navbar .links li .sub-menu li{
     }
 
     footer {
-      margin-top: 150px;
-      min-width: 99vw;
+      display: flex;
+      flex-wrap: wrap;
+      background: #05386B;
+      /* margin-top: 150px; */
+      justify-content: space-around;
+      min-height: 500px;
+      /* min-width: 99vw; */
     }
 
 
